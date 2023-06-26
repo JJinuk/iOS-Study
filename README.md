@@ -13,6 +13,8 @@
 ## SwiftUI
 |Topic|ETC|
 |------|---|
+|[ObservedObject란?](https://github.com/JJinuk/iOS-Study/issues/2)||
+
 
 ## 비동기프로그래밍
 |Topic|ETC|
