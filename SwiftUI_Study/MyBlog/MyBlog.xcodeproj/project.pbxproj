@@ -13,6 +13,8 @@
 		B720F3452A9A19D800AAB52D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B720F3442A9A19D800AAB52D /* Preview Assets.xcassets */; };
 		B720F3472A9A19D800AAB52D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720F3462A9A19D800AAB52D /* Persistence.swift */; };
 		B720F34A2A9A19D800AAB52D /* MyBlog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B720F3482A9A19D800AAB52D /* MyBlog.xcdatamodeld */; };
+		B772DAF12AA45BAE00D3FF2B /* BlogPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772DAF02AA45BAE00D3FF2B /* BlogPostCell.swift */; };
+		B772DAF32AA45E7200D3FF2B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772DAF22AA45E7200D3FF2B /* Post.swift */; };
 		B787D74A2A9B248400F77BA5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787D7492A9B248300F77BA5 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		B720F3442A9A19D800AAB52D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B720F3462A9A19D800AAB52D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B720F3492A9A19D800AAB52D /* MyBlog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyBlog.xcdatamodel; sourceTree = "<group>"; };
+		B772DAF02AA45BAE00D3FF2B /* BlogPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostCell.swift; sourceTree = "<group>"; };
+		B772DAF22AA45E7200D3FF2B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B787D7492A9B248300F77BA5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,9 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				B720F33D2A9A19D700AAB52D /* MyBlogApp.swift */,
+				B720F3502A9A19ED00AAB52D /* Views */,
 				B720F3522A9A19F900AAB52D /* ViewModel */,
 				B720F3512A9A19F400AAB52D /* Models */,
-				B720F3502A9A19ED00AAB52D /* Views */,
 				B720F3412A9A19D800AAB52D /* Assets.xcassets */,
 				B787D7492A9B248300F77BA5 /* Colors.swift */,
 				B720F3462A9A19D800AAB52D /* Persistence.swift */,
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B720F33F2A9A19D700AAB52D /* HomeView.swift */,
+				B772DAF02AA45BAE00D3FF2B /* BlogPostCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 		B720F3512A9A19F400AAB52D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B772DAF22AA45E7200D3FF2B /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,6 +180,8 @@
 				B787D74A2A9B248400F77BA5 /* Colors.swift in Sources */,
 				B720F34A2A9A19D800AAB52D /* MyBlog.xcdatamodeld in Sources */,
 				B720F3402A9A19D700AAB52D /* HomeView.swift in Sources */,
+				B772DAF12AA45BAE00D3FF2B /* BlogPostCell.swift in Sources */,
+				B772DAF32AA45E7200D3FF2B /* Post.swift in Sources */,
 				B720F33E2A9A19D700AAB52D /* MyBlogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

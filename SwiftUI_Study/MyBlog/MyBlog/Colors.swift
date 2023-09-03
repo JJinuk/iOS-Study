@@ -10,5 +10,6 @@ import SwiftUI
 struct KeyColor {
     static let accentColor: Color = Color(red: 0.27, green: 0.75, blue: 0.78)
     static let textBlackColor: Color = Color(red: 0.00, green: 0.00, blue: 0.00)
+    static let textGrayColor: Color = Color(red: 0.45, green: 0.45, blue: 0.45)
     static let textWhiteColor: Color = Color(red: 1, green: 1, blue: 1)
 }
